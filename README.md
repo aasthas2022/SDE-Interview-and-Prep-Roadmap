@@ -64,7 +64,7 @@
      - [ ] Robin Hood Hashing
      - [ ] Count-Min Sketch
      - [ ] Bloom Filters
-</details>
+
 2. **<span style="color:green;">Algorithms</span>**:
    - [ ] **Sorting Algorithms**:
      - [ ] Bubble Sort
