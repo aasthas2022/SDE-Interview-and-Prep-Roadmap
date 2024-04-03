@@ -1,7 +1,14 @@
+# <span style="color:darkslategray;">SDE Interview and Prep Roadmap</span>
 
-## <span style="color:orange;">Domains and Topics</span>
+## <span style="color:darkolivegreen;">Overview</span>
 
-1. **<span style="color:green;">Data Structures</span>**: 
+Welcome to the SDE Interview Preparation Roadmap! This repository is not just about my personal journey; it's a collaborative space for collective learning. As I prepare for Software Development Engineer (SDE) interviews, I've created a comprehensive checklist to guide my preparation. By sharing this roadmap, I aim to foster a community of learners where we can all grow together. It covers various domains including **Data Structures, Algorithms, System Design, Operating Systems, Networking, Databases, Programming Languages and Concepts, System Architecture, Problem-solving and Coding, as well as Behavioral and Soft Skills**.
+
+## <span style="color:darkolivegreen;">**Domains and Topics**</span>
+
+<details>
+<summary>1. <span style="color:green;">Data Structures</span></summary>
+
    - [ ] **Arrays**
      - [ ] Dynamic arrays
        - [ ] ArrayList
@@ -65,7 +72,11 @@
      - [ ] Count-Min Sketch
      - [ ] Bloom Filters
 
-2. **<span style="color:green;">Algorithms</span>**:
+</details>
+
+<details>
+<summary>2. <span style="color:green;">Algorithms</span></summary>
+
    - [ ] **Sorting Algorithms**:
      - [ ] Bubble Sort
      - [ ] Selection Sort
@@ -132,18 +143,23 @@
    - [ ] **String Algorithms**:
      - TO DO
 
-3. **<span style="color:green;">System Design</span>**:
+</details>
+
+<details>
+<summary>3. <span style="color:green;">System Design</span></summary>
+
    - Resources:
      - [System Design Interview by Alex Xu](./System%20Design/Resources/System%20Design%20Interview%20by%20Alex%20Xu.pdf)
      - [Designing Data Intensive Applications by Martin Kleppmann](./System%20Design/Resources/Designing%20Data%20Intensive%20Applications%20by%20Martin%20Kleppmann.pdf)
-   - [ ] Design patterns
-     - [ ] Creational patterns
+
+   - [ ] **Design patterns**
+     - [ ] **Creational patterns**
        - [ ] Singleton
        - [ ] Factory Method
        - [ ] Abstract Factory
        - [ ] Builder
        - [ ] Prototype
-     - [ ] Structural patterns
+     - [ ] **Structural patterns**
        - [ ] Adapter
        - [ ] Bridge
        - [ ] Composite
@@ -151,12 +167,9 @@
        - [ ] Facade
        - [ ] Flyweight
        - [ ] Proxy
-     - [ ] Behavioral patterns
-
-
+     - [ ] **Behavioral patterns**
        - [ ] Chain of Responsibility
        - [ ] Command
-       - [ ] Interpreter
        - [ ] Iterator
        - [ ] Mediator
        - [ ] Memento
@@ -165,7 +178,7 @@
        - [ ] Strategy
        - [ ] Template Method
        - [ ] Visitor
-   - [ ] Object-oriented design principles
+   - [ ] **Object-oriented design principles**
      - [ ] DRY (Don't Repeat Yourself)
      - [ ] KISS (Keep It Simple, Stupid)
      - [ ] YAGNI (You Aren't Gonna Need It)
@@ -177,17 +190,17 @@
        - [ ] Liskov Substitution Principle (LSP)
        - [ ] Interface Segregation Principle (ISP)
        - [ ] Dependency Inversion Principle (DIP)
-   - [ ] Scalability
+   - [ ] **Scalability**
      - [ ] Replication vs. Partitioning
      - [ ] Consistent Hashing
      - [ ] Auto-scaling
-   - [ ] Distributed systems
+   - [ ] **Distributed systems**
      - [ ] ACID vs. BASE
      - [ ] Eventual consistency
      - [ ] Leader election algorithms (Paxos, Raft)
      - [ ] Distributed tracing
      - [ ] Fault tolerance and resilience
-   - [ ] Microservices architecture
+   - [ ] **Microservices architecture**
      - [ ] Choreography vs. Orchestration
      - [ ] API gateway
      - [ ] Circuit Breaker pattern
@@ -202,13 +215,17 @@
        - [ ] Content Delivery Networks (CDNs)
        - [ ] Anycast routing
        - [ ] Adaptive load balancing algorithms
-   - [ ] Database design and optimization
+   - [ ] **Database design and optimization**
      - [ ] Partitioning
      - [ ] Materialized views
      - [ ] NoSQL databases (document, key-value, column-family, graph)
      - [ ] Database normalization forms (1NF, 2NF, 3NF, BCNF)
 
-4. **<span style="color:green;">Operating Systems</span>**:
+</details>
+
+<details>
+<summary>4. <span style="color:green;">Operating Systems</span></summary>
+
    - [ ] **Processes**
    - [ ] **Threads**
    - [ ] **Thread synchronization mechanisms**:
@@ -230,7 +247,11 @@
      - [ ] File system encryption
      - [ ] Distributed file systems (HDFS, Ceph)
 
-5. **<span style="color:green;">Networking</span>**:
+</details>
+
+<details>
+<summary>5. <span style="color:green;">Networking</span></summary>
+
    - [ ] **TCP/IP stack**
      - [ ] OSI model layers
      - [ ] TCP vs. UDP
@@ -242,7 +263,11 @@
    - [ ] **Routing algorithms**
      - [ ] Shortest Path algorithms (Dijkstra's, Bellman-Ford)
 
-6. **<span style="color:green;">Databases</span>**:
+</details>
+
+<details>
+<summary>6. <span style="color:green;">Databases</span></summary>
+
    - [ ] **Relational databases (SQL)**
      - [ ] Normalization forms
        - [ ] First Normal Form (1NF)
@@ -322,122 +347,243 @@
    - [ ] **Database design and optimization**
      - [ ] Partitioning
      - [ ] Materialized views
-     - [ ] Denormalization
-     - [ ] Sharding
 
-7. **<span style="color:green;"> Programming Languages and Concepts</span>**:
-   - [ ] **Proficiency in at least one programming language (for me it is JS/PY)**
-     - [ ] Syntax
-     - [ ] Data types
-     - [ ] Control flow
- - [ ] **Functions and Scoping**
-     - [ ] Regular Expressions
-     - [ ] Concurrency and Parallelism
-   - [ ] **Object-oriented programming**
+</details>
+
+<details>
+<summary>7. <span style="color:green;">Programming Languages and Concepts</span></summary>
+
+   - [ ] **Programming paradigms**
+     - [ ] Imperative programming
+     - [ ] Declarative programming
+     - [ ] Functional programming
+     - [ ] Object-oriented programming
+     - [ ] Procedural programming
+     - [ ] Event-driven programming
+     - [ ] Aspect-oriented programming
+   - [ ] **Memory management**
+     - [ ] Stack vs. Heap
+     - [ ] Manual vs. Automatic memory management
+     - [ ] Garbage collection algorithms (e.g., Mark and Sweep, Generational GC)
+   - [ ] **Concurrency**
+     - [ ] Threads vs. Processes
+     - [ ] Synchronization primitives (locks, mutexes, semaphores)
+     - [ ] Thread safety
+     - [ ] Deadlocks
+     - [ ] Race conditions
+     - [ ] Parallelism vs. Concurrency
+     - [ ] Asynchronous programming
+   - [ ] **Error handling**
+     - [ ] Exceptions vs. Error codes
+     - [ ] Exception handling mechanisms
+     - [ ] Exception safety
+     - [ ] Error propagation
+     - [ ] Error recovery
+   - [ ] **Functional programming**
+     - [ ] Higher-order functions
+     - [ ] Closures
+     - [ ] Lambda expressions
+     - [ ] Pure functions
+     - [ ] Referential transparency
+   - [ ] **Object-oriented programming (OOP)**
      - [ ] Encapsulation
      - [ ] Inheritance
      - [ ] Polymorphism
      - [ ] Abstraction
-     - [ ] Classes and Objects
-     - [ ] Interfaces
-   - [ ] **Functional programming concepts**
-     - [ ] Higher-order functions
-     - [ ] Pure functions
-     - [ ] Recursion
-     - [ ] Closures
-     - [ ] Immutability
-     - [ ] Currying
-   - [ ] **Memory management**
-     - [ ] Stack vs. Heap
-     - [ ] Pointers and References
-     - [ ] Memory Leaks
-     - [ ] Memory Profiling
-   - [ ] **Error handling**
-     - [ ] Exception handling mechanisms
-     - [ ] Error types and codes
-     - [ ] Error logging and reporting
+     - [ ] Composition vs. Inheritance
+     - [ ] Method overriding vs. Method overloading
+   - [ ] **Design patterns**
+     - [ ] Creational patterns
+     - [ ] Structural patterns
+     - [ ] Behavioral patterns
+   - [ ] **Asynchronous programming**
+     - [ ] Callbacks
+     - [ ] Promises
+     - [ ] Futures
+     - [ ] Coroutines
+   - [ ] **Functional vs. Imperative vs. Declarative programming**
+   - [ ] **Type systems**
+     - [ ] Static vs. Dynamic typing
+     - [ ] Strong vs. Weak typing
+     - [ ] Nominal vs. Structural typing
+   - [ ] **Lambda calculus**
+   - [ ] **Garbage collection**
+     - [ ] Tracing vs. Reference counting
+     - [ ] Generational GC
+   - [ ] **Regular expressions**
+   - [ ] **Memory layout**
+     - [ ] Stack vs. Heap memory allocation
+     - [ ] Data segment vs. Code segment
+   - [ ] **Recursion**
+     - [ ] Tail recursion
+     - [ ] Mutual recursion
+     - [ ] Anonymous recursion
+   - [ ] **Virtual Memory**
+     - [ ] Demand Paging
+     - [ ] Page replacement algorithms (FIFO, LRU, Optimal)
+   - [ ] **Networking**
+     - [ ] Sockets
+     - [ ] Client-server architecture
+     - [ ] Protocols (TCP, UDP)
+     - [ ] Remote Procedure Call (RPC)
 
-8. **<span style="color:green;">System Architecture</span>**:
+</details>
+
+<details>
+<summary>8. <span style="color:green;">System Architecture</span></summary>
+
    - [ ] **Client-server architecture**
-     - [ ] RESTful APIs
-     - [ ] Websockets
-     - [ ] Microservices
-     - [ ] Serverless architecture
-   - [ ] **Cloud services (Basic services - TO DO: Update list)**
-     - [ ] AWS services (EC2, S3, RDS, Lambda, etc.)
-     - [ ] Azure services (Azure VMs, Blob Storage, Azure Functions, etc.)
-     - [ ] Google Cloud Platform services (Compute Engine, Cloud Storage, Cloud Functions, etc.)
-   - [ ] **Containerization**
-     - [ ] Docker containers
-     - [ ] Kubernetes orchestration
-     - [ ] Container networking
-     - [ ] Container security
-     - [ ] Orchestration tools (Kubernetes, Docker Swarm, etc.)
-   - [ ] **Scalability and Load Balancing**
-     - [ ] Horizontal vs Vertical Scaling
-     - [ ] Load Balancing Algorithms
-     - [ ] Auto-scaling mechanisms
-   - [ ] **High Availability and Disaster Recovery**
-     - [ ] Redundancy and Failover
-     - [ ] Disaster Recovery Planning
-     - [ ] Backup and Restore procedures"
+     - [ ] Basics
+     - [ ] Communication protocols
+   - [ ] **RESTful architecture**
+     - [ ] Principles
+     - [ ] Advantages
+     - [ ] Constraints
+   - [ ] **Service-Oriented Architecture (SOA)**
+     - [ ] Principles
+     - [ ] Advantages
+     - [ ] Challenges
+   - [ ] **Message Queuing**
+     - [ ] Basics
+     - [ ] Use cases
+     - [ ] Implementations (e.g., RabbitMQ, Kafka)
+   - [ ] **Microservices**
+     - [ ] Principles
+     - [ ] Advantages
+     - [ ] Challenges
+   - [ ] **Event-Driven Architecture (EDA)**
+     - [ ] Basics
+     - [ ] Components
+     - [ ] Advantages
+     - [ ] Implementations (e.g., Apache Kafka)
+   - [ ] **Layered Architecture**
+     - [ ] Presentation layer
+     - [ ] Business logic layer
+     - [ ] Data access layer
+     - [ ] Cross-cutting concerns layer
+   - [ ] **Caching strategies**
+     - [ ] Cache aside
+     - [ ] Write-through caching
+     - [ ] Write-behind caching
+     - [ ] Cache stampede prevention
 
-11. **<span style="color:green;">Software Development Methodologies</span>**:
-    - [ ] **Agile methodologies**
-      - [ ] Scrum
-      - [ ] Kanban
-      - [ ] Extreme Programming (XP)
-      - [ ] Lean Software Development
-      - [ ] Feature-Driven Development (FDD)
-    - [ ] **Waterfall model**
-      - [ ] Sequential development phases
-      - [ ] Requirements gathering, design, implementation, testing, deployment
-      - [ ] V-Model
-      - [ ] Spiral Model
-    - [ ] **DevOps principles**
-      - [ ] Continuous Integration (CI) and Continuous Deployment (CD)
-      - [ ] Infrastructure as Code (IaC)
-      - [ ] Automation tools (e.g., Jenkins, Ansible)
-      - [ ] Microservices Architecture
-      - [ ] Site Reliability Engineering (SRE)
+</details>
 
-12. **<span style="color:green;">Version Control Systems</span>**:
-    - [ ] **Git fundamentals**
-      - [ ] Branching strategies (e.g., GitFlow)
-      - [ ] Merging, rebasing
-      - [ ] Git hooks
-      - [ ] Git submodules
-    - [ ] **SVN (Subversion)**
-      - [ ] Repository structure
-      - [ ] Branching and tagging
-      - [ ] SVN externals
-      - [ ] Repository locking
+<details>
+<summary>9. <span style="color:green;">Problem-solving and Coding</span></summary>
 
-13. **<span style="color:green;">Testing</span>**:
-    - [ ] **Unit testing**
-      - [ ] Test-driven development (TDD)
-      - [ ] Mocking frameworks
-      - [ ] Code coverage analysis
-      - [ ] Parameterized testing
-    - [ ] **Integration testing**
-      - [ ] API testing
-      - [ ] End-to-end testing
-      - [ ] Service virtualization
-      - [ ] Contract testing
-    - [ ] **Performance testing**
-      - [ ] Load testing
-      - [ ] Stress testing
-      - [ ] Scalability testing
-      - [ ] Spike testing
-14. **<span style="color:green;">Security</span>**:
-    - [ ] **Secure coding practices**
-      - [ ] Input validation
-      - [ ] Output encoding
-      - [ ] Authentication and authorization
-    - [ ] **Cryptography basics**
-      - [ ] Encryption algorithms
-      - [ ] Hashing algorithms
-    - [ ] **Common security vulnerabilities**
-      - [ ] OWASP Top 10
-      - [ ] Cross-site scripting (XSS), SQL injection, CSRF
+   - [ ] **Problem-solving strategies**
+     - [ ] Understand the problem
+     - [ ] Break it down
+     - [ ] Solve a simpler problem
+     - [ ] Look for patterns
+     - [ ] Make a plan
+     - [ ] Implement the plan
+     - [ ] Test your solution
+   - [ ] **Coding techniques**
+     - [ ] Modular programming
+     - [ ] Divide and conquer
+     - [ ] Recursion
+     - [ ] Dynamic programming
+     - [ ] Greedy algorithms
+     - [ ] Backtracking
+     - [ ] Bit manipulation
+     - [ ] Sliding window
+     - [ ] Two pointers
+     - [ ] Binary search
+     - [ ] Fast and slow pointers
+     - [ ] Hashing
+   - [ ] **Coding best practices**
+     - [ ] Naming conventions
+     - [ ] Code readability
+     - [ ] Code reusability
+     - [ ] Error handling
+     - [ ] Testing
+     - [ ] Version control (e.g., Git)
+     - [ ] Code reviews
+   - [ ] **Time and space complexity analysis**
+     - [ ] Big O notation
+     - [ ] Big Omega notation
+     - [ ] Big Theta notation
+     - [ ] Space complexity analysis
+   - [ ] **Debugging**
+     - [ ] Print debugging
+     - [ ] Debugger tools
+     - [ ] Rubber duck debugging
+   - [ ] **Optimization**
+     - [ ] Algorithmic optimization
+     - [ ] Space-time trade-offs
+     - [ ] Profiling tools
 
+</details>
+
+<details>
+<summary>10. <span style="color:green;">Behavioral and Soft Skills</span></summary>
+
+   - [ ] **Communication skills**
+     - [ ] Verbal communication
+     - [ ] Written communication
+     - [ ] Active listening
+     - [ ] Non-verbal communication
+     - [ ] Presentation skills
+   - [ ] **Problem-solving skills**
+     - [ ] Analytical thinking
+     - [ ] Creativity
+     - [ ] Critical thinking
+     - [ ] Decision-making
+   - [ ] **Teamwork and Collaboration**
+     - [ ] Conflict resolution
+     - [ ] Negotiation skills
+     - [ ] Leadership skills
+     - [ ] Delegation
+   - [ ] **Time management**
+     - [ ] Prioritization
+     - [ ] Setting goals
+     - [ ] Meeting deadlines
+   - [ ] **Adaptability**
+     - [ ] Learning agility
+     - [ ] Flexibility
+     - [ ] Resilience
+   - [ ] **Interpersonal skills**
+     - [ ] Empathy
+     - [ ] Emotional intelligence
+     - [ ] Networking
+   - [ ] **Professionalism**
+     - [ ] Integrity
+     - [ ] Ethics
+     - [ ] Work ethic
+     - [ ] Accountability
+   - [ ] **Leadership**
+     - [ ] Vision
+     - [ ] Inspiration
+     - [ ] Influence
+     - [ ] Decision-making
+     - [ ] Delegation
+
+</details>
+
+
+## <span style="color:darkolivegreen;">**Features**</span>
+- **Structured Learning Path**: Follow a well-organized roadmap covering key domains such as **Data Structures**, **Algorithms**, **System Design**, **Operating Systems**, **Networking**, **Databases**, and more.
+- **Checklist-based Approach**: Track your progress systematically with checklist-style items for each topic, ensuring thorough coverage of concepts and practical skills.
+- **Recommended Resources**: Access curated lists of recommended resources, including books, online courses, coding platforms, articles, and practice problems to enhance your understanding and skills.
+- **Tailored Preparation**: Customize your preparation based on the specific requirements and focus areas of the companies you're interviewing with, maximizing your chances of success.
+- **Tips and Recommendations**: Benefit from valuable tips and recommendations for problem-solving, coding practice, behavioral and soft skills development, and adapting to different interview formats.
+
+## <span style="color:darkolivegreen;">**How to Use** </span>
+1. **Clone the Repository**: Clone this repository to your local machine using Git.
+2. **Navigate to Domains**: Explore the `Domains` directory to find checklists for different domains/topics.
+3. **Check Off Items**: As you study and practice, mark off checklist items to track your progress.
+4. **Explore Resources**: Browse through the `Resources` directory for recommended resources corresponding to each domain/topic.
+5. **Customize Your Plan**: Tailor your preparation plan based on your strengths, weaknesses, and the requirements of the companies you're targeting.
+6. **Community Learning**: Engage with fellow learners, share insights, ask questions, and collaborate on improving the roadmap together.
+7. **Stay Updated**: Periodically update your progress and revisit topics to reinforce your understanding and skills.
+
+## <span style="color:darkolivegreen;">**Contributions**</span>
+Contributions are welcome! If you have suggestions for improving the roadmap, additional resources to recommend, or want to fix any errors, feel free to open an issue or submit a pull request.
+
+## <span style="color:darkolivegreen;">**Disclaimer**<span>
+This roadmap is intended as a general guideline and may not cover every aspect of SDE interviews. It's essential to supplement my preparation with additional resources and adapt based on individual needs and experiences.
+
+## <span style="color:darkolivegreen;">**Credits**</span>
+This project is inspired by various interview preparation resources and the collective wisdom of the developer community.
