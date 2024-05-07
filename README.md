@@ -4,6 +4,8 @@
 
 Welcome to the SDE Interview Preparation Roadmap! This repository is not just about my personal journey; it's a collaborative space for collective learning. As I prepare for Software Development Engineer (SDE) interviews, I've created a comprehensive checklist to guide my preparation. By sharing this roadmap, I aim to foster a community of learners where we can all grow together. It covers various domains including **Data Structures, Algorithms, System Design, Operating Systems, Networking, Databases, Programming Languages and Concepts, System Architecture, Problem-solving and Coding, as well as Behavioral and Soft Skills**.
 
+## <span style="color:darkolivegreen;">Printable PDF Version of Checklist - [Click Here]('./SDE-Interview-and-Prep-Roadmap.pdf)</span>
+
 ## <span style="color:darkolivegreen;">**Domains and Topics**</span>
 
 <details>
@@ -141,7 +143,31 @@ Welcome to the SDE Interview Preparation Roadmap! This repository is not just ab
      - [ ] Finding Maximum Subarray Sum (Kadane's Algorithm)
      - [ ] Finding Peak Element in 1D/2D Array
    - [ ] **String Algorithms**:
-     - TO DO
+     - [ ] Rabin-Karp Algorithm
+     - [ ] Knuth-Morris-Pratt (KMP) Algorithm
+     - [ ] Z-Algorithm
+     - [ ] Boyer-Moore Algorithm
+     - [ ] Manacher's Algorithm
+     - [ ] Suffix Array Construction
+     - [ ] Longest Common Prefix (LCP) Array
+     - [ ] Aho-Corasick Algorithm
+     - [ ] Suffix Tree Construction
+     - [ ] Suffix Automaton
+     - [ ] Trie (Prefix Tree) Insertion and Search
+     - [ ] Breadth-First Search (BFS) in a Trie
+     - [ ] Depth-First Search (DFS) in a Trie
+     - [ ] Edit Distance (Levenshtein Distance)
+     - [ ] Hamming Distance
+     - [ ] Longest Palindromic Substring
+     - [ ] Longest Repeated Substring
+     - [ ] Longest Common Substring
+     - [ ] Longest Common Subsequence
+     - [ ] Shortest Common Supersequence
+     - [ ] Palindrome Check
+     - [ ] Count and Say Sequence
+     - [ ] String Hashing
+     - [ ] Baker-Bird Algorithm
+     - [ ] Burrows-Wheeler Transform (BWT)
 
 </details>
 
