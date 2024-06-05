@@ -532,47 +532,11 @@ Welcome to the SDE Interview Preparation Roadmap! This repository is not just ab
 </details>
 
 <details>
-<summary>10. <span style="color:green;">Behavioral and Soft Skills</span></summary>
+<summary>10. <span style="color:green;">Version control System</span></summary>
 
-   - [ ] **Communication skills**
-     - [ ] Verbal communication
-     - [ ] Written communication
-     - [ ] Active listening
-     - [ ] Non-verbal communication
-     - [ ] Presentation skills
-   - [ ] **Problem-solving skills**
-     - [ ] Analytical thinking
-     - [ ] Creativity
-     - [ ] Critical thinking
-     - [ ] Decision-making
-   - [ ] **Teamwork and Collaboration**
-     - [ ] Conflict resolution
-     - [ ] Negotiation skills
-     - [ ] Leadership skills
-     - [ ] Delegation
-   - [ ] **Time management**
-     - [ ] Prioritization
-     - [ ] Setting goals
-     - [ ] Meeting deadlines
-   - [ ] **Adaptability**
-     - [ ] Learning agility
-     - [ ] Flexibility
-     - [ ] Resilience
-   - [ ] **Interpersonal skills**
-     - [ ] Empathy
-     - [ ] Emotional intelligence
-     - [ ] Networking
-   - [ ] **Professionalism**
-     - [ ] Integrity
-     - [ ] Ethics
-     - [ ] Work ethic
-     - [ ] Accountability
-   - [ ] **Leadership**
-     - [ ] Vision
-     - [ ] Inspiration
-     - [ ] Influence
-     - [ ] Decision-making
-     - [ ] Delegation
+   - [ ] [**Git**](./Version%20Control%20Systems/Git.md)
+   - [ ] **Bitbucket**
+
 
 </details>
 
