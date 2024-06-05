@@ -455,10 +455,7 @@ Welcome to the SDE Interview Preparation Roadmap! This repository is not just ab
    - [ ] **Client-server architecture**
      - [ ] Basics
      - [ ] Communication protocols
-   - [ ] **RESTful architecture**
-     - [ ] Principles
-     - [ ] Advantages
-     - [ ] Constraints
+   - [ ] [**RESTful architecture**](./System%20Design/RESTfulArchitecture.md)
    - [ ] **Service-Oriented Architecture (SOA)**
      - [ ] Principles
      - [ ] Advantages
@@ -468,9 +465,6 @@ Welcome to the SDE Interview Preparation Roadmap! This repository is not just ab
      - [ ] Use cases
      - [ ] Implementations (e.g., RabbitMQ, Kafka)
    - [ ] [**Microservices**](./System%20Design/Microservices.md)
-     - [ ] Principles
-     - [ ] Advantages
-     - [ ] Challenges
    - [ ] **Event-Driven Architecture (EDA)**
      - [ ] Basics
      - [ ] Components
