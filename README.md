@@ -11,13 +11,7 @@ Welcome to the SDE Interview Preparation Roadmap! This repository is not just ab
 <details>
 <summary>1. <span style="color:green;">Data Structures</span></summary>
 
-   - [ ] **Arrays**
-     - [ ] Dynamic arrays
-       - [ ] ArrayList
-       - [ ] Vector
-       - [ ] ArrayList
-     - [ ] Sparse arrays
-     - [ ] Associative arrays
+   - [ ] [**Arrays**](./Data%20Structures/Arrays.md)
    - [ ] **Linked Lists**
      - [ ] Singly linked lists
        - [ ] Circularly linked lists
@@ -473,7 +467,7 @@ Welcome to the SDE Interview Preparation Roadmap! This repository is not just ab
      - [ ] Basics
      - [ ] Use cases
      - [ ] Implementations (e.g., RabbitMQ, Kafka)
-   - [ ] **Microservices**
+   - [ ] [**Microservices**](./System%20Design/Microservices.md)
      - [ ] Principles
      - [ ] Advantages
      - [ ] Challenges
