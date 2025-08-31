@@ -12,7 +12,7 @@ Welcome to the SDE Interview Preparation Roadmap! This repository is not just ab
 <summary>1. <span style="color:green;">Data Structures</span></summary>
 
    - [ ] [**Arrays**](./Data%20Structures/Arrays.md)
-   - [ ] **Linked Lists**
+   - [ ] [**Linked Lists**](./Data%20Structures/LinkedList.md)
      - [ ] Singly linked lists
        - [ ] Circularly linked lists
        - [ ] Lock-free linked lists
