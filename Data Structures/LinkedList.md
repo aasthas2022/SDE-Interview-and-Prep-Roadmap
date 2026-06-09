@@ -27,6 +27,8 @@
 9. [Complexity Analysis](#complexity-analysis)
 10. [Special Considerations](#special-considerations)
 11. [Top 30 Linked List Questions](#top-30-linked-list-questions)
+12. [Skip List](#skip-list)
+13. [Unrolled linked lists](#unrolled-linked-lists)
 
 ## Linked List Overview
 
@@ -214,3 +216,24 @@ A linked list is a linear data structure in which elements are not stored at con
     - **Access time**: Arrays provide O(1) time complexity for accessing elements, while linked lists provide O(n) due to sequential access.
     - **Insertion/deletion**: Linked lists offer efficient O(1) insertion and deletion at known positions, whereas arrays can have O(n) time complexity due to shifting elements.
     - **Memory overhead**: Linked lists have extra memory overhead for storing pointers, unlike arrays.
+
+## Skip List
+
+A skip list is a probabilistic data structure that allows for fast search, insertion, and deletion operations. It consists of multiple layers of linked lists, where each higher layer acts as an "express lane" for the lower layers. This structure enables logarithmic time complexity for search operations, similar to balanced trees, while maintaining the simplicity of linked lists.
+
+```
+Level 1 (express lane):     [1] ----------------------> [5] ----------------------> [9]
+
+Level 0 (full list):        [1] -> [2] -> [3] -> [4] -> [5] -> [6] -> [7] -> [8] -> [9]
+```
+
+## Unrolled linked lists
+
+An unrolled linked list is a variation of a linked list that stores multiple elements in each node. This structure reduces the overhead of pointers and improves cache performance by storing elements in contiguous memory blocks within each node. Unrolled linked lists are particularly useful for applications that require frequent insertions and deletions, as they can reduce the number of nodes and pointers needed.
+
+In the example below, each node contains four elements but instead of 11 pointers, we only need 3 pointers.:
+
+```
+[ 1 | 2 | 3 | 4 ] ---> [ 5 | 6 | 7 | 8 ] ---> [ 9 | 10 | 11  | 12 ]
+```
+
