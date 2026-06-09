@@ -4,7 +4,7 @@
 
 Welcome to the SDE Interview Preparation Roadmap! This repository is not just about my personal journey; it's a collaborative space for collective learning. As I prepare for Software Development Engineer (SDE) interviews, I've created a comprehensive checklist to guide my preparation. By sharing this roadmap, I aim to foster a community of learners where we can all grow together. It covers various domains including **Data Structures, Algorithms, System Design, Operating Systems, Networking, Databases, Programming Languages and Concepts, System Architecture, Problem-solving and Coding, as well as Behavioral and Soft Skills**.
 
-## <span style="color:darkolivegreen;">Printable PDF Version of Checklist - [Click Here]('/SDE-Interview-and-Prep-Roadmap.pdf')</span>
+## <span style="color:darkolivegreen;">Printable PDF Version of Checklist - [Click Here](/SDE-Interview-and-Prep-Roadmap.pdf)</span>
 
 ## <span style="color:darkolivegreen;">**Domains and Topics**</span>
 
