@@ -18,7 +18,7 @@ In real systems, a database is usually paired with a DBMS:
 - Database = the actual stored data
 - DBMS = the software that manages the data
 
-Examples of DBMSs:
+Examples of DBMSs: 
 
 - PostgreSQL
 - MySQL
