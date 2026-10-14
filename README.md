@@ -10,14 +10,17 @@ Use the expandable checklists to track what you've studied, revisit weak areas, 
 
 ## Domains and Topics
 
-**Overall progress: 1 / 829 topics completed (0.1%)**
+**Overall Preparation Progress**
 
 ![Overall progress](assets/progress/overall.svg)
 
 Progress bars and counts are generated from checklist states when you commit changes to GitHub. The interview-readiness self-assessment is excluded.
 
 **Priority key:**  
-**`P0`** = essential / most frequently useful · **`P1`** = important · **`P2`** = advanced or lower-frequency. These priorities are interview-prep recommendations, not difficulty ratings.
+<br/>· **`P0`** = essential / most frequently useful 
+<br/>· **`P1`** = important 
+<br/>· **`P2`** = advanced or lower-frequency. 
+<br/>These priorities are interview-prep recommendations, not difficulty ratings.
 
 ### 1. Agentic AI, LLM Engineering, and AI System Design
 
@@ -74,7 +77,7 @@ Progress bars and counts are generated from checklist states when you commit cha
   - [ ] Robustness testing: invalid inputs, ambiguous tasks, and tool outages **`P1`**
   - [ ] Unit testing tools, nodes, validators, and deterministic logic **`P0`**
 - [ ] **Hands-On Interview Readiness** **`P1`**
-  - [ ] Add persistent state and resume execution after process restart **`P0`**
+  - [X] Add persistent state and resume execution after process restart **`P0`**
   - [ ] Add retries, timeouts, human approval, and safe fallback behavior **`P0`**
   - [ ] Build a RAG pipeline with citations and retrieval evaluation **`P0`**
   - [ ] Build an agent with at least two tools and schema-validated outputs **`P1`**
