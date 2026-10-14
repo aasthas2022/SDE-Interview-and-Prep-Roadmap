@@ -1,0 +1,39 @@
+name: Update interview prep progress
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - scripts/update_progress.py
+      - .github/workflows/progress.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-readme-progress
+  cancel-in-progress: false
+
+jobs:
+  update-progress:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Generate SVG progress bars and totals
+        run: python3 scripts/update_progress.py
+      - name: Commit generated progress changes
+        run: |
+          git add README.md assets/progress/
+          if git diff --cached --quiet; then
+            echo "Progress is up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "docs: refresh interview prep progress [skip ci]"
+          git push
