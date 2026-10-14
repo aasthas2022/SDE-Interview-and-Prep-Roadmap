@@ -3,19 +3,20 @@ name: Update interview prep progress
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
     paths:
       - README.md
       - scripts/update_progress.py
       - .github/workflows/progress.yml
+
   workflow_dispatch:
 
 permissions:
   contents: write
-  pull-requests: write
 
 concurrency:
-  group: update-readme-progress
+  group: update-interview-prep-progress
   cancel-in-progress: false
 
 jobs:
@@ -26,23 +27,23 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
         with:
+          ref: main
           persist-credentials: true
 
-      - name: Generate SVG progress bars and totals
+      - name: Generate progress bars and totals
         run: python3 scripts/update_progress.py
 
-      - name: Create pull request for progress changes
-        uses: peter-evans/create-pull-request@v7
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          branch: automation/update-progress
-          base: main
-          add-paths: |
-            README.md
-            assets/progress/
-          commit-message: 'docs: refresh interview prep progress'
-          title: 'docs: refresh interview prep progress'
-          body: |
-            Automatically refreshes completion totals and SVG progress bars
-            based on the checkboxes in README.md.
-          delete-branch: true
+      - name: Commit generated progress changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md assets/progress/
+
+          if git diff --cached --quiet; then
+            echo "No progress changes detected."
+            exit 0
+          fi
+
+          git commit -m "docs: refresh interview prep progress [skip ci]"
+          git push origin HEAD:main
