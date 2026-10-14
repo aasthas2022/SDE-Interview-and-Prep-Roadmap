@@ -1,3 +1,4 @@
+
 name: Update interview prep progress
 
 on:
@@ -11,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 concurrency:
   group: update-readme-progress
@@ -19,21 +21,28 @@ concurrency:
 jobs:
   update-progress:
     runs-on: ubuntu-latest
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
         with:
           persist-credentials: true
+
       - name: Generate SVG progress bars and totals
         run: python3 scripts/update_progress.py
-      - name: Commit generated progress changes
-        run: |
-          git add README.md assets/progress/
-          if git diff --cached --quiet; then
-            echo "Progress is up to date."
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "docs: refresh interview prep progress [skip ci]"
-          git push
+
+      - name: Create pull request for progress changes
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: automation/update-progress
+          base: main
+          add-paths: |
+            README.md
+            assets/progress/
+          commit-message: 'docs: refresh interview prep progress'
+          title: 'docs: refresh interview prep progress'
+          body: |
+            Automatically refreshes completion totals and SVG progress bars
+            based on the checkboxes in README.md.
+          delete-branch: true
