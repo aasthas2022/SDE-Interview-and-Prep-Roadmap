@@ -10,9 +10,9 @@ Use the expandable checklists to track what you've studied, revisit weak areas, 
 
 ## Domains and Topics
 
-**Overall progress: 11 / 829 topics completed (1.3%)**
+**Overall progress: 10 / 699 topics completed (1.4%)**
 
-![Overall progress](assets/progress/overall.svg)
+![Overall progress](assets/progress/overall.svg?v=c1b56962d8)
 
 Progress bars and counts are generated from checklist states when you commit changes to GitHub. The interview-readiness self-assessment is excluded.
 
@@ -24,7 +24,7 @@ Progress bars and counts are generated from checklist states when you commit cha
 
 ### 1. Agentic AI, LLM Engineering, and AI System Design
 
-![Agentic AI, LLM Engineering, and AI System Design progress](assets/progress/domain-1.svg)
+![Agentic AI, LLM Engineering, and AI System Design progress](assets/progress/domain-1.svg?v=8452771167)
 
 <details>
 <summary><strong>View topics and checklist</strong></summary>
@@ -179,7 +179,7 @@ Progress bars and counts are generated from checklist states when you commit cha
 
 ### 2. Algorithms
 
-![Algorithms progress](assets/progress/domain-2.svg)
+![Algorithms progress](assets/progress/domain-2.svg?v=c7f831b50f)
 
 <details>
 <summary><strong>View topics and checklist</strong></summary>
@@ -367,7 +367,7 @@ Progress bars and counts are generated from checklist states when you commit cha
 
 ### 3. Cloud, DevOps & Infrastructure
 
-![Cloud, DevOps & Infrastructure progress](assets/progress/domain-3.svg)
+![Cloud, DevOps & Infrastructure progress](assets/progress/domain-3.svg?v=c29d857a15)
 
 <details>
 <summary><strong>View topics and checklist</strong></summary>
@@ -497,7 +497,7 @@ Progress bars and counts are generated from checklist states when you commit cha
 
 ### 4. Data Structures
 
-![Data Structures progress](assets/progress/domain-4.svg)
+![Data Structures progress](assets/progress/domain-4.svg?v=05ad60d837)
 
 <details>
 <summary><strong>View topics and checklist</strong></summary>
@@ -619,7 +619,7 @@ Progress bars and counts are generated from checklist states when you commit cha
 
 ### 5. Databases
 
-![Databases progress](assets/progress/domain-5.svg)
+![Databases progress](assets/progress/domain-5.svg?v=ba0990857b)
 
 <details>
 <summary><strong>View topics and checklist</strong></summary>
@@ -787,7 +787,7 @@ Progress bars and counts are generated from checklist states when you commit cha
 
 ### 6. Low-Level Design & Object-Oriented Design
 
-![Low-Level Design & Object-Oriented Design progress](assets/progress/domain-6.svg)
+![Low-Level Design & Object-Oriented Design progress](assets/progress/domain-6.svg?v=93bbbffad8)
 
 <details>
 <summary><strong>View topics and checklist</strong></summary>
@@ -907,7 +907,7 @@ Progress bars and counts are generated from checklist states when you commit cha
 
 ### 7. Networking
 
-![Networking progress](assets/progress/domain-7.svg)
+![Networking progress](assets/progress/domain-7.svg?v=d333ba565d)
 
 <details>
 <summary><strong>View topics and checklist</strong></summary>
@@ -937,7 +937,7 @@ Progress bars and counts are generated from checklist states when you commit cha
 
 ### 8. Operating Systems
 
-![Operating Systems progress](assets/progress/domain-8.svg)
+![Operating Systems progress](assets/progress/domain-8.svg?v=a91dcbe287)
 
 <details>
 <summary><strong>View topics and checklist</strong></summary>
@@ -987,7 +987,7 @@ Progress bars and counts are generated from checklist states when you commit cha
 
 ### 9. Problem-solving and Coding
 
-![Problem-solving and Coding progress](assets/progress/domain-9.svg)
+![Problem-solving and Coding progress](assets/progress/domain-9.svg?v=675f7b3a0e)
 
 <details>
 <summary><strong>View topics and checklist</strong></summary>
@@ -1081,7 +1081,7 @@ Progress bars and counts are generated from checklist states when you commit cha
 
 ### 10. Programming Languages and Concepts
 
-![Programming Languages and Concepts progress](assets/progress/domain-10.svg)
+![Programming Languages and Concepts progress](assets/progress/domain-10.svg?v=802412617a)
 
 <details>
 <summary><strong>View topics and checklist</strong></summary>
@@ -1237,7 +1237,7 @@ Progress bars and counts are generated from checklist states when you commit cha
 
 ### 11. Security Engineering & Authentication
 
-![Security Engineering & Authentication progress](assets/progress/domain-11.svg)
+![Security Engineering & Authentication progress](assets/progress/domain-11.svg?v=f7ca4d5310)
 
 <details>
 <summary><strong>View topics and checklist</strong></summary>
@@ -1351,7 +1351,7 @@ Progress bars and counts are generated from checklist states when you commit cha
 
 ### 12. System Architecture
 
-![System Architecture progress](assets/progress/domain-12.svg)
+![System Architecture progress](assets/progress/domain-12.svg?v=47ccb07f4e)
 
 <details>
 <summary><strong>View topics and checklist</strong></summary>
@@ -1417,7 +1417,7 @@ Progress bars and counts are generated from checklist states when you commit cha
 
 ### 13. System Design
 
-![System Design progress](assets/progress/domain-13.svg)
+![System Design progress](assets/progress/domain-13.svg?v=94b4110508)
 
 <details>
 <summary><strong>View topics and checklist</strong></summary>
@@ -1569,7 +1569,7 @@ Progress bars and counts are generated from checklist states when you commit cha
 
 ### 14. Testing, Reliability & Observability
 
-![Testing, Reliability & Observability progress](assets/progress/domain-14.svg)
+![Testing, Reliability & Observability progress](assets/progress/domain-14.svg?v=ec9ca1a725)
 
 <details>
 <summary><strong>View topics and checklist</strong></summary>
@@ -1683,7 +1683,7 @@ Progress bars and counts are generated from checklist states when you commit cha
 
 ### 15. Version control System
 
-![Version control System progress](assets/progress/domain-15.svg)
+![Version control System progress](assets/progress/domain-15.svg?v=3e922ba373)
 
 <details>
 <summary><strong>View topics and checklist</strong></summary>
