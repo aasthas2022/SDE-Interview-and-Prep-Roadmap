@@ -24,32 +24,35 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1. Checkout the repository.
       - name: Check out repository
         uses: actions/checkout@v4
         with:
           ref: main
           persist-credentials: true
 
+      # 2. Set up Python.
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
+      # 3. Recalculate checklist completion.
+      # This updates README counts and generates SVG bars.
       - name: Generate progress bars and totals
         run: python3 scripts/update_progress.py
 
+      # 4. Display changes in Actions logs.
       - name: Show generated changes
         run: git diff -- README.md assets/progress/
 
+      # 5. Commit only when files have changed.
       - name: Commit generated progress changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add README.md
-          if [ -d assets/progress ]; then
-            git add assets/progress/
-          fi
+          git add README.md assets/progress/
 
           if git diff --cached --quiet; then
             echo "No progress changes detected."
@@ -57,4 +60,5 @@ jobs:
           fi
 
           git commit -m "docs: refresh interview prep progress [skip ci]"
+
           git push origin HEAD:main
