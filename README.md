@@ -10,7 +10,7 @@ Use the expandable checklists to track what you've studied, revisit weak areas, 
 
 ## Domains and Topics
 
-**Overall progress: 1 / 829 topics completed (0.1%)**
+**Overall progress: 11 / 829 topics completed (1.3%)**
 
 ![Overall progress](assets/progress/overall.svg)
 
