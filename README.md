@@ -10,9 +10,9 @@ Use the expandable checklists to track what you've studied, revisit weak areas, 
 
 ## Domains and Topics
 
-**Overall progress: 38 / 699 topics completed (5.4%)**
+**Overall progress: 31 / 699 topics completed (4.4%)**
 
-![Overall progress](assets/progress/overall.svg)
+![Overall progress](assets/progress/overall.svg?v=b97d0ee3a3)
 
 Progress bars and counts are generated from checklist states when you commit changes to GitHub. The interview-readiness self-assessment is excluded.
 
@@ -764,7 +764,7 @@ Progress bars and counts are generated from checklist states when you commit cha
 
 ### 5. Databases
 
-![Databases progress](assets/progress/domain-5.svg)
+![Databases progress](assets/progress/domain-5.svg?v=40beb9a0b9)
 
 <details>
 
