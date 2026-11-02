@@ -10,16 +10,20 @@ Use the expandable checklists to track what you've studied, revisit weak areas, 
 
 ## Domains and Topics
 
-**Overall progress: 10 / 699 topics completed (1.4%)**
+**Overall progress: 38 / 699 topics completed (5.4%)**
 
-![Overall progress](assets/progress/overall.svg?v=c1b56962d8)
+![Overall progress](assets/progress/overall.svg)
 
 Progress bars and counts are generated from checklist states when you commit changes to GitHub. The interview-readiness self-assessment is excluded.
 
 **Priority key:**  
+
 <br/>· **`P0`** = essential / most frequently useful 
+
 <br/>· **`P1`** = important 
+
 <br/>· **`P2`** = advanced or lower-frequency. 
+
 <br/>These priorities are interview-prep recommendations, not difficulty ratings.
 
 ### 1. Agentic AI, LLM Engineering, and AI System Design
@@ -27,161 +31,303 @@ Progress bars and counts are generated from checklist states when you commit cha
 ![Agentic AI, LLM Engineering, and AI System Design progress](assets/progress/domain-1.svg?v=8452771167)
 
 <details>
+
 <summary><strong>View topics and checklist</strong></summary>
 
 - [x] **Agent Fundamentals and Decision-Making** **`P1`**
+
   - [x] [Agent autonomy levels and choosing the minimum sufficient autonomy](<./Agentic AI, LLM Engineering, and AI System Design/Agent Fundamentals and Decision-Making/Agent autonomy levels and choosing the minimum sufficient autonomy.md>) **`P1`**
+
   - [x] [Core agent loop: observe, decide, act, inspect results, and stop](<./Agentic AI, LLM Engineering, and AI System Design/Agent Fundamentals and Decision-Making/Core agent loop: observe, decide, act, inspect results and stop.md>) **`P0`**
+
   - [x] [Deterministic workflow nodes vs. model-selected actions](<./Agentic AI, LLM Engineering, and AI System Design/Agent Fundamentals and Decision-Making/Deterministic workflow nodes vs. model-selected actions.md>) **`P1`**
+
   - [x] [Human-in-the-loop reviews, approvals, and escalation](<./Agentic AI, LLM Engineering, and AI System Design/Agent Fundamentals and Decision-Making/Human-in-the-loop reviews, approvals and escalation.md>) **`P0`**
+
   - [x] [LLM workflows vs. autonomous agents: when each is appropriate](<./Agentic AI, LLM Engineering, and AI System Design/Agent Fundamentals and Decision-Making/LLM workflows vs. autonomous agents: when each is appropriate.md>) **`P0`**
+
   - [x] [Planning: task breakdown, dependency graphs, and replanning](<./Agentic AI, LLM Engineering, and AI System Design/Agent Fundamentals and Decision-Making/Planning: task breakdown, dependency graphs and replanning.md>) **`P0`**
+
   - [x] [Reasoning-and-acting patterns (e.g., ReAct) and tool-use loops](<./Agentic AI, LLM Engineering, and AI System Design/Agent Fundamentals and Decision-Making/Reasoning-and-acting patterns (e.g., ReAct) and tool-use loops.md>) **`P0`**
+
   - [x] [Reflection, critique, self-correction, and their limitations](<./Agentic AI, LLM Engineering, and AI System Design/Agent Fundamentals and Decision-Making/Reflection, critique, self-correction, and their limitations.md>) **`P1`**
+
   - [x] [Short-term context vs. persistent long-term memory](<./Agentic AI, LLM Engineering, and AI System Design/Agent Fundamentals and Decision-Making/Short-term context vs. persistent long-term memory.md>) **`P1`**
+
   - [x] [Stop conditions, turn budgets, iteration limits, and fallback paths](<./Agentic AI, LLM Engineering, and AI System Design/Agent Fundamentals and Decision-Making/Stop conditions, turn budgets, iteration limits, and fallback paths.md>) **`P1`**
 
 - [ ] **Agentic Frameworks and Orchestration** **`P1`**
+
   - [ ] Compare LangGraph, AutoGen, CrewAI, and SDK-native agent approaches **`P2`**
+
   - [ ] Conditional branching, map-reduce, parallel fan-out, and fan-in **`P1`**
+
   - [ ] Durable execution and recovering from mid-workflow failures **`P0`**
+
   - [ ] LangChain: models, tools, retrievers, and integrations **`P0`**
+
   - [ ] LangGraph: checkpointing, persistence, interrupts, and resumability **`P0`**
+
   - [ ] LangGraph: retries, error recovery, and human approval flows **`P0`**
+
   - [ ] LangGraph: state graphs, nodes, edges, routing, and reducers **`P0`**
+
   - [ ] LangSmith: traces, datasets, evaluations, and debugging **`P0`**
+
   - [ ] Stateless service architecture vs. stateful agent execution **`P1`**
+
   - [ ] Workflow orchestration vs. agent orchestration **`P1`**
+
 - [ ] **Agentic System Design Interview Practice** **`P0`**
+
   - [ ] Calculate throughput, per-request token cost, and p95 latency **`P0`**
+
   - [ ] Compare a deterministic pipeline with an autonomous agent for the same task **`P1`**
+
   - [ ] Design a code-review / bug-triage agent with repository tools **`P1`**
+
   - [ ] Design a CSV/Excel validation agent with rules and external data checks **`P1`**
+
   - [ ] Design a customer-support agent with search and human handoff **`P1`**
+
   - [ ] Design a document research agent that produces cited answers **`P1`**
+
   - [ ] Design a job-search agent that finds, evaluates, and ranks openings **`P0`**
+
   - [ ] Design a multi-agent research workflow with parallel specialists **`P1`**
+
   - [ ] Design an incident-response assistant with read-only diagnostics **`P1`**
+
   - [ ] Explain failure modes, state recovery, evaluation, and monitoring **`P0`**
+
   - [ ] Explain how you would enforce approvals on write/side-effect tools **`P1`**
+
 - [ ] **Evaluation and Testing** **`P0`**
+
   - [ ] Agent trajectory tests: tool selection, ordering, and stop behavior **`P1`**
+
   - [ ] Defining success criteria before building an agent **`P1`**
+
   - [ ] End-to-end tests for complete multi-step agent workflows **`P1`**
+
   - [ ] Golden datasets and representative real-world test cases **`P1`**
+
   - [ ] Human review, pairwise comparisons, and error taxonomy **`P1`**
+
   - [ ] Integration tests with mocked external tools and APIs **`P0`**
+
   - [ ] LLM-as-judge: rubrics, calibration, bias, and limitations **`P0`**
+
   - [ ] Measures: task success, groundedness, tool correctness, cost, and latency **`P0`**
+
   - [ ] Offline evaluation vs. online experiments and A/B testing **`P0`**
+
   - [ ] Regression tests after prompt, tool, model, or retrieval changes **`P0`**
+
   - [ ] Robustness testing: invalid inputs, ambiguous tasks, and tool outages **`P1`**
+
   - [ ] Unit testing tools, nodes, validators, and deterministic logic **`P0`**
+
 - [ ] **Hands-On Interview Readiness** **`P1`**
+
   - [ ] Add persistent state and resume execution after process restart **`P0`**
+
   - [ ] Add retries, timeouts, human approval, and safe fallback behavior **`P0`**
+
   - [ ] Build a RAG pipeline with citations and retrieval evaluation **`P0`**
+
   - [ ] Build an agent with at least two tools and schema-validated outputs **`P1`**
+
   - [ ] Create a small evaluation dataset and measure task success **`P0`**
+
   - [ ] Demonstrate a cost/latency optimization with before-and-after metrics **`P0`**
+
   - [ ] Explain one end-to-end project: architecture, trade-offs, impact, and lessons **`P1`**
+
   - [ ] Practice whiteboarding an agentic architecture in 30–45 minutes **`P1`**
+
   - [ ] Prepare answers for: "Why agents instead of workflows?" and "When should an agent stop?" **`P1`**
+
   - [ ] Trace and debug an incorrect tool-selection decision **`P0`**
+
 - [ ] **LLM and Generative AI Fundamentals** **`P0`**
+
   - [ ] Closed-weight vs. open-weight models; hosted APIs vs. self-hosting **`P0`**
+
   - [ ] Hallucinations, uncertainty, grounding, and model limitations **`P1`**
+
   - [ ] Inference parameters: temperature, top-p, seed, and stop sequences **`P1`**
+
   - [ ] Model selection: capability, latency, context, cost, privacy, and deployment **`P0`**
+
   - [ ] Pretraining vs. instruction tuning vs. fine-tuning vs. alignment **`P2`**
+
   - [ ] Prompting vs. RAG vs. fine-tuning: decision criteria and trade-offs **`P0`**
+
   - [ ] Tokens, tokenization, context windows, and output limits **`P1`**
+
   - [ ] Transformers, attention, embeddings, and autoregressive generation **`P0`**
+
 - [ ] **Memory, State, and Context Management** **`P1`**
+
   - [ ] Context compaction, summaries, and memory retrieval **`P0`**
+
   - [ ] Conversation state and checkpointing **`P1`**
+
   - [ ] Memory persistence: in-memory, databases, and durable checkpoint stores **`P1`**
+
   - [ ] Memory relevance, aging, deletion, and conflict resolution **`P1`**
+
   - [ ] Multi-replica deployments and shared state consistency **`P1`**
+
   - [ ] Privacy-aware memory retention and data minimization **`P1`**
+
   - [ ] Session isolation and user/tenant scoping **`P1`**
+
   - [ ] Working memory, episodic memory, semantic memory, and user preferences **`P1`**
+
 - [ ] **Multi-Agent Systems** **`P1`**
+
   - [ ] Agent-to-agent communication and typed message contracts **`P0`**
+
   - [ ] Avoiding unnecessary agent proliferation and coordination overhead **`P1`**
+
   - [ ] Conflicting answers, arbitration, and consensus limits **`P1`**
+
   - [ ] Handoffs, delegation, and task ownership **`P1`**
+
   - [ ] Parallel agents, race conditions, and result aggregation **`P0`**
+
   - [ ] Shared state vs. agent-specific state **`P1`**
+
   - [ ] Single-agent vs. multi-agent trade-offs **`P1`**
+
   - [ ] Supervisor/worker and coordinator/specialist patterns **`P1`**
+
 - [ ] **Production Reliability and Observability** **`P1`**
+
   - [ ] Cache strategies: prompt, response, embedding, and retrieval caching **`P0`**
+
   - [ ] Circuit breakers, dead-letter queues, and recovery workflows **`P0`**
+
   - [ ] Cost optimization: smaller models, batching, caching, and routing **`P1`**
+
   - [ ] End-to-end distributed traces for prompts, model calls, and tools **`P0`**
+
   - [ ] Logs, metrics, dashboards, and actionable alerting **`P0`**
+
   - [ ] Model and prompt versioning, release controls, and rollback **`P1`**
+
   - [ ] Provider outages, failover models, and graceful degradation **`P1`**
+
   - [ ] Request queuing, concurrency limits, and backpressure **`P0`**
+
   - [ ] Retry storms, duplicate side effects, and idempotency keys **`P0`**
+
   - [ ] SLA/SLO design and incident investigation **`P0`**
+
   - [ ] Streaming responses, cancellation, and timeout handling **`P1`**
+
   - [ ] Token usage, per-step cost, and latency budgets **`P0`**
+
 - [ ] **Prompt Engineering and Structured Outputs** **`P1`**
+
   - [ ] Function/tool calling: schema design, argument validation, and error handling **`P0`**
+
   - [ ] Handling malformed outputs, refusals, and partial completions **`P1`**
+
   - [ ] Injection-resistant prompt design and explicit trust boundaries **`P1`**
+
   - [ ] Managing long context, truncation, summarization, and irrelevant context **`P1`**
+
   - [ ] Prompt templates, versioning, regression testing, and reproducibility **`P1`**
+
   - [ ] Structured output with JSON Schema and type validation **`P1`**
+
   - [ ] System, developer, user, and tool messages; instruction priority **`P1`**
+
   - [ ] Zero-shot, few-shot, role prompting, and task decomposition **`P1`**
+
 - [ ] **Retrieval-Augmented Generation (RAG)** **`P0`**
+
   - [ ] Answer evaluation: faithfulness, factual correctness, and relevance **`P0`**
+
   - [ ] Chunking approaches: fixed-size, semantic, hierarchical, and overlap **`P1`**
+
   - [ ] Dense vs. sparse retrieval (BM25) and hybrid search **`P0`**
+
   - [ ] Embeddings: similarity metrics, dimension, and model selection **`P0`**
+
   - [ ] Grounded responses, source citations, and abstention when evidence is missing **`P1`**
+
   - [ ] Ingestion pipelines: parsing, cleaning, deduplication, and metadata **`P1`**
+
   - [ ] Multi-tenant retrieval, ACL-aware filtering, and data freshness **`P0`**
+
   - [ ] Query rewriting, expansion, routing, and decomposition **`P1`**
+
   - [ ] RAG vs. long-context prompting vs. fine-tuning: when to use which **`P0`**
+
   - [ ] Reranking, contextual compression, and top-k selection **`P1`**
+
   - [ ] Retrieval evaluation: recall\@k, precision\@k, MRR, and nDCG **`P0`**
+
   - [ ] Vector databases and indexing / update / deletion strategies **`P0`**
+
   - [ ] Vector indexes: approximate nearest neighbors, HNSW, and IVF **`P0`**
+
 - [ ] **Security, Privacy, and Safety** **`P1`**
+
   - [ ] Data exfiltration threats and unsafe tool execution **`P1`**
+
   - [ ] Defense in depth; why instructions alone are not security boundaries **`P1`**
+
   - [ ] Least-privilege agent identities and scoped credentials **`P1`**
+
   - [ ] Output validation and policy enforcement before external actions **`P1`**
+
   - [ ] PII detection, redaction, encryption, and retention policies **`P0`**
+
   - [ ] Prompt injection: direct and indirect attacks via retrieved content/tools **`P0`**
+
   - [ ] Responsible AI: bias, misuse, human oversight, and transparency **`P1`**
+
   - [ ] Sandboxing code execution and restricting network/file access **`P0`**
+
   - [ ] Tenant isolation and permission-aware retrieval **`P0`**
+
   - [ ] Tool allowlists, confirmation for destructive actions, and audit trails **`P1`**
+
 - [ ] **Tool Use, Integrations, and Protocols** **`P1`**
+
   - [ ] API authentication, authorization, least privilege, and secret handling **`P0`**
+
   - [ ] Approval gates for irreversible or high-impact actions **`P1`**
+
   - [ ] External search, database queries, code execution, and file tools **`P1`**
+
   - [ ] Idempotent operations, retries, backoff, timeouts, and rate limits **`P0`**
+
   - [ ] Model Context Protocol (MCP): clients, servers, tools, and resources **`P1`**
+
   - [ ] Parallel tool execution vs. sequential dependencies **`P1`**
+
   - [ ] Tool argument schemas and input/output contracts **`P0`**
+
   - [ ] Tool call audit logs and replay/debugging **`P0`**
+
   - [ ] Tool registry/discovery and selecting the right tool for a task **`P1`**
+
   - [ ] Tool result validation, sanitization, and handling untrusted content **`P1`**
 
 </details>
-
 
 ### 2. Algorithms
 
 ![Algorithms progress](assets/progress/domain-2.svg?v=c7f831b50f)
 
 <details>
+
 <summary><strong>View topics and checklist</strong></summary>
 
 - [ ] **Divide and Conquer** **`P1`**
@@ -364,12 +510,12 @@ Progress bars and counts are generated from checklist states when you commit cha
 
 </details>
 
-
 ### 3. Cloud, DevOps & Infrastructure
 
 ![Cloud, DevOps & Infrastructure progress](assets/progress/domain-3.svg?v=c29d857a15)
 
 <details>
+
 <summary><strong>View topics and checklist</strong></summary>
 
 - [ ] **AWS Compute and Application Hosting** **`P1`**
@@ -494,12 +640,12 @@ Progress bars and counts are generated from checklist states when you commit cha
 
 </details>
 
-
 ### 4. Data Structures
 
 ![Data Structures progress](assets/progress/domain-4.svg?v=05ad60d837)
 
 <details>
+
 <summary><strong>View topics and checklist</strong></summary>
 
 - [ ] [**Arrays**](./Data%20Structures/Arrays.md) **`P0`**
@@ -616,23 +762,23 @@ Progress bars and counts are generated from checklist states when you commit cha
 
 </details>
 
-
 ### 5. Databases
 
-![Databases progress](assets/progress/domain-5.svg?v=ba0990857b)
+![Databases progress](assets/progress/domain-5.svg)
 
 <details>
+
 <summary><strong>View topics and checklist</strong></summary>
 
-- [ ] **ACID properties** **`P0`**
+- [x] [ACID properties](./Databases/ACID%20properties/Overview.md) **`P0`**
 
-  - [ ] Atomicity **`P1`**
+  - [x] [Atomicity](./Databases/ACID%20properties/Atomicity.md) **`P1`**
 
-  - [ ] Consistency **`P1`**
+  - [x] [Consistency](./Databases/ACID%20properties/Consistency.md) **`P1`**
 
-  - [ ] Durability **`P1`**
+  - [x] [Durability](./Databases/ACID%20properties/Durability.md) **`P1`**
 
-  - [ ] Isolation **`P1`**
+  - [x] [Isolation](./Databases/ACID%20properties/Isolation.md) **`P1`**
 
 - [ ] **Database design and optimization** **`P1`**
 
@@ -666,51 +812,51 @@ Progress bars and counts are generated from checklist states when you commit cha
 
     - [ ] Key-value **`P1`**
 
-- [ ] **Relational databases (SQL)** **`P0`**
+- [x] [Relational databases (SQL)](./Databases/Relational%20databases%20%28SQL%29/Overview.md) **`P0`**
 
-  - [ ] Database Constraints **`P1`**
+  - [x] [Database Constraints](./Databases/Database%20Constraints/Overview.md) **`P1`**
 
-    - [ ] Check constraint **`P1`**
+    - [x] [Check constraint](./Databases/Database%20Constraints/Check%20constraint.md) **`P1`**
 
-    - [ ] Default constraint **`P1`**
+    - [x] [Default constraint](./Databases/Database%20Constraints/Default%20constraint.md) **`P1`**
 
-    - [ ] Foreign key **`P1`**
+    - [x] [Foreign key](./Databases/Database%20Constraints/Foreign%20key.md) **`P1`**
 
-    - [ ] Primary key **`P1`**
+    - [x] [Primary key](./Databases/Database%20Constraints/Primary%20key.md) **`P1`**
 
-    - [ ] Unique constraint **`P1`**
+    - [x] [Unique constraint](./Databases/Database%20Constraints/Unique%20constraint.md) **`P1`**
 
-  - [ ] Joins **`P0`**
+  - [x] [Joins](./Databases/Joins/Overview.md) **`P0`**
 
-    - [ ] Cross joins **`P0`**
+    - [x] [Cross joins](./Databases/Joins/Cross%20joins.md) **`P0`**
 
-    - [ ] Inner joins **`P0`**
+    - [x] [Inner joins](./Databases/Joins/Inner%20joins.md) **`P0`**
 
-    - [ ] Outer joins (left, right, full) **`P0`**
+    - [x] [Outer joins (left, right, full)](./Databases/Joins/Outer%20joins%20%28left%2C%20right%2C%20full%29.md) **`P0`**
 
-  - [ ] Normalization forms **`P0`**
+  - [x] [Normalization forms](./Databases/Normalization%20forms/Overview.md) **`P0`**
 
-    - [ ] Boyce-Codd Normal Form (BCNF) **`P1`**
+    - [x] [Boyce-Codd Normal Form (BCNF)](./Databases/Normalization%20forms/Boyce-Codd%20Normal%20Form%20%28BCNF%29.md) **`P1`**
 
-    - [ ] First Normal Form (1NF) **`P1`**
+    - [x] [First Normal Form (1NF)](./Databases/Normalization%20forms/First%20Normal%20Form%20%281NF%29.md) **`P1`**
 
-    - [ ] Second Normal Form (2NF) **`P1`**
+    - [x] [Second Normal Form (2NF)](./Databases/Normalization%20forms/Second%20Normal%20Form%20%282NF%29.md) **`P1`**
 
-    - [ ] Third Normal Form (3NF) **`P1`**
+    - [x] [Third Normal Form (3NF)](./Databases/Normalization%20forms/Third%20Normal%20Form%20%283NF%29.md) **`P1`**
 
-  - [ ] SQL Data Control Language (DCL) **`P0`**
+  - [x] [SQL Data Control Language (DCL)](./Databases/SQL%20Data%20Control%20Language%20%28DCL%29/Overview.md) **`P0`**
 
-    - [ ] GRANT statement **`P1`**
+    - [x] [GRANT statement](./Databases/SQL%20Data%20Control%20Language%20%28DCL%29/GRANT%20statement.md) **`P1`**
 
-    - [ ] REVOKE statement **`P1`**
+    - [x] [REVOKE statement](./Databases/SQL%20Data%20Control%20Language%20%28DCL%29/REVOKE%20statement.md) **`P1`**
 
-  - [ ] SQL Data Definition Language (DDL) **`P0`**
+  - [x] [SQL Data Definition Language (DDL)](./Databases/SQL%20Data%20Definition%20Language%20%28DDL%29/Overview.md) **`P0`**
 
-    - [ ] ALTER statement **`P1`**
+    - [x] [ALTER statement](./Databases/SQL%20Data%20Definition%20Language%20%28DDL%29/ALTER%20statement.md) **`P1`**
 
-    - [ ] CREATE statement **`P1`**
+    - [x] [CREATE statement](./Databases/SQL%20Data%20Definition%20Language%20%28DDL%29/CREATE%20statement.md) **`P1`**
 
-    - [ ] DROP statement **`P1`**
+    - [x] [DROP statement](./Databases/SQL%20Data%20Definition%20Language%20%28DDL%29/DROP%20statement.md) **`P1`**
 
   - [ ] SQL Data Manipulation Language (DML) **`P0`**
 
@@ -784,12 +930,12 @@ Progress bars and counts are generated from checklist states when you commit cha
 
 </details>
 
-
 ### 6. Low-Level Design & Object-Oriented Design
 
 ![Low-Level Design & Object-Oriented Design progress](assets/progress/domain-6.svg?v=93bbbffad8)
 
 <details>
+
 <summary><strong>View topics and checklist</strong></summary>
 
 - [ ] **API, Persistence, and Concurrency Design** **`P0`**
@@ -904,12 +1050,12 @@ Progress bars and counts are generated from checklist states when you commit cha
 
 </details>
 
-
 ### 7. Networking
 
 ![Networking progress](assets/progress/domain-7.svg?v=d333ba565d)
 
 <details>
+
 <summary><strong>View topics and checklist</strong></summary>
 
 - [ ] **DNS (Domain Name System)** **`P0`**
@@ -934,12 +1080,12 @@ Progress bars and counts are generated from checklist states when you commit cha
 
 </details>
 
-
 ### 8. Operating Systems
 
 ![Operating Systems progress](assets/progress/domain-8.svg?v=a91dcbe287)
 
 <details>
+
 <summary><strong>View topics and checklist</strong></summary>
 
 - [ ] **Deadlock detection and prevention** **`P0`**
@@ -984,12 +1130,12 @@ Progress bars and counts are generated from checklist states when you commit cha
 
 </details>
 
-
 ### 9. Problem-solving and Coding
 
 ![Problem-solving and Coding progress](assets/progress/domain-9.svg?v=675f7b3a0e)
 
 <details>
+
 <summary><strong>View topics and checklist</strong></summary>
 
 - [ ] **Coding best practices** **`P1`**
@@ -1078,12 +1224,12 @@ Progress bars and counts are generated from checklist states when you commit cha
 
 </details>
 
-
 ### 10. Programming Languages and Concepts
 
 ![Programming Languages and Concepts progress](assets/progress/domain-10.svg?v=802412617a)
 
 <details>
+
 <summary><strong>View topics and checklist</strong></summary>
 
 - [ ] **Asynchronous programming** **`P0`**
@@ -1234,12 +1380,12 @@ Progress bars and counts are generated from checklist states when you commit cha
 
 </details>
 
-
 ### 11. Security Engineering & Authentication
 
 ![Security Engineering & Authentication progress](assets/progress/domain-11.svg?v=f7ca4d5310)
 
 <details>
+
 <summary><strong>View topics and checklist</strong></summary>
 
 - [ ] **Application and API Security** **`P0`**
@@ -1348,12 +1494,12 @@ Progress bars and counts are generated from checklist states when you commit cha
 
 </details>
 
-
 ### 12. System Architecture
 
 ![System Architecture progress](assets/progress/domain-12.svg?v=47ccb07f4e)
 
 <details>
+
 <summary><strong>View topics and checklist</strong></summary>
 
 - [ ] **Caching strategies** **`P1`**
@@ -1414,12 +1560,12 @@ Progress bars and counts are generated from checklist states when you commit cha
 
 </details>
 
-
 ### 13. System Design
 
 ![System Design progress](assets/progress/domain-13.svg?v=94b4110508)
 
 <details>
+
 <summary><strong>View topics and checklist</strong></summary>
 
 - Resources:
@@ -1566,12 +1712,12 @@ Progress bars and counts are generated from checklist states when you commit cha
 
 </details>
 
-
 ### 14. Testing, Reliability & Observability
 
 ![Testing, Reliability & Observability progress](assets/progress/domain-14.svg?v=ec9ca1a725)
 
 <details>
+
 <summary><strong>View topics and checklist</strong></summary>
 
 - [ ] **Backend and Distributed-System Testing** **`P1`**
@@ -1680,12 +1826,12 @@ Progress bars and counts are generated from checklist states when you commit cha
 
 </details>
 
-
 ### 15. Version control System
 
 ![Version control System progress](assets/progress/domain-15.svg?v=3e922ba373)
 
 <details>
+
 <summary><strong>View topics and checklist</strong></summary>
 
 - [ ] **Bitbucket** **`P2`**
@@ -1726,19 +1872,19 @@ Before calling a topic “done,” check whether you can explain and apply it un
 
 ## How to Use
 
-1\\. **Clone the Repository**: Clone this repository to your local machine using Git.
+1\\\\. **Clone the Repository**: Clone this repository to your local machine using Git.
 
-2\\. **Navigate to Domains**: Explore the `Domains` directory to find checklists for different domains/topics.
+2\\\\. **Navigate to Domains**: Explore the `Domains` directory to find checklists for different domains/topics.
 
-3\\. **Check Off Items**: As you study and practice, mark off checklist items to track your progress.
+3\\\\. **Check Off Items**: As you study and practice, mark off checklist items to track your progress.
 
-4\\. **Explore Resources**: Browse through the `Resources` directory for recommended resources corresponding to each domain/topic.
+4\\\\. **Explore Resources**: Browse through the `Resources` directory for recommended resources corresponding to each domain/topic.
 
-5\\. **Customize Your Plan**: Tailor your preparation plan based on your strengths, weaknesses, and the requirements of the companies you're targeting.
+5\\\\. **Customize Your Plan**: Tailor your preparation plan based on your strengths, weaknesses, and the requirements of the companies you're targeting.
 
-6\\. **Community Learning**: Engage with fellow learners, share insights, ask questions, and collaborate on improving the roadmap together.
+6\\\\. **Community Learning**: Engage with fellow learners, share insights, ask questions, and collaborate on improving the roadmap together.
 
-7\\. **Stay Updated**: Periodically update your progress and revisit topics to reinforce your understanding and skills.
+7\\\\. **Stay Updated**: Periodically update your progress and revisit topics to reinforce your understanding and skills.
 
 ## Contributions
 
